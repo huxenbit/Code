@@ -21,9 +21,9 @@ public class Zahlenraten {
 			System.out.println("Gib deine Zahl ein: ");
 			numInp = scanner.nextInt();
 			System.out.println("");
-			System.out.println("Die zu erratene Zahl war: " + numToGuess);
 			
 			if (numInp == numToGuess) {
+				System.out.println("Die zu erratene Zahl war: " + numToGuess);
 				System.out.println("Du hast sie erraten! :)");
 				keepGoing = false;
 			} else {	
