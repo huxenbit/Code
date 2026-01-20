@@ -1,38 +1,127 @@
 import java.util.Scanner;
 
 class Calculator {
-	public static void main(String[] args) {
+	
+	double inputA;
+	double inputB;
+	char operator;
+	char tryAgain;
+	boolean validInput = false;
+	
+	void setInput() {
+		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("");
-		System.out.println("##Willkommen beim Calculator!##");
-		System.out.print("Bitte gib die erste Zahl ein: ");
-		double x = scanner.nextDouble();
-		
-		System.out.print("Gib deine zweite Zahl ein: ");
-		double y = scanner.nextDouble();
-		
-		System.out.print("Nun gib den Operator ein(+, -, *, /): ");
-		char operator = scanner.next().charAt(0);
-		
-		double ergebnis;
-		
-		
-		switch (operator) {
-		case '+': ergebnis = x + y; break;
-		case '-': ergebnis = x - y; break;
-		case '*': ergebnis = x * y; break;
-		case '/': 
-			if (y != 0) {
-				ergebnis = x / y; break;
-			} else {
-				System.out.print("Kann nicht durch 0 dividieren!"); return;
+		while (!validInput) {
+			System.out.print("Enter first number A = ");
+			String input = scanner.next();
+			
+			try {
+				inputA = Double.parseDouble(input);
+				validInput = true;
+			} 
+			catch (NumberFormatException e) {
+				System.out.println("Please enter a valid number!");
 			}
-		default: System.out.print("Fehler!"); return;
 		}
 		
-		System.out.println("Das Ergebnis ist %.2f!\n" + ergebnis + "!");
-		System.out.println("");
-		scanner.close();
+		validInput = false;
+		
+		while (!validInput) {
+			System.out.print("Enter second number B = ");
+			String input = scanner.next();
+			
+			try {
+				inputB = Double.parseDouble(input);
+				validInput = true;
+			}
+			catch (NumberFormatException e) {
+				System.out.println("Please enter a valid number!");
+			}
+			
+		}
+		
+		validInput = false;
+		
+		System.out.print("Enter operator(+, -, /, *): ");
+		operator = scanner.next().charAt(0);
+		
+		if (operator == '+' || operator == '-' || operator == '*' || operator == '/') {
+			getInput();
+		}
+		else {
+			System.out.println("Error! False operator.");
+			setInput();
+		}
+	}
+	
+	void getInput() {
+		
+		System.out.println("You entered: " + inputA + operator + inputB + "\n" + "calculating...");
+		calculate();
+	}
+	
+	void calculate() {
+		
+		double result;
+		
+		switch (operator) {
+			case '+':
+				result = inputA + inputB;
+				System.out.println("Result: " + result);
+				restart();
+				break;
+			
+			case '-':
+				result = inputA - inputB;
+				System.out.println("Result: " + result);
+				restart();
+				break;
+			
+			case '*':
+				result = inputA * inputB;
+				System.out.println("Result: " + result);
+				restart();
+				break;
+			
+			case '/':
+				if (inputB != 0) {
+					result = inputA / inputB;
+					System.out.println("Result: " + result);
+					restart();
+					break;
+				}
+				else {
+					System.out.println("Division by 0 impossible! Restarting...");
+					setInput();
+					break;
+				}
+				
+			default:
+				System.out.println("Error! Restarting...");
+				setInput();
+				break;
+		}
+	}
+	
+	void restart() {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Do you want to calculate again? Y/N: ");
+		tryAgain = scanner.next().charAt(0);
+		tryAgain = Character.toLowerCase(tryAgain);
+		
+		if (tryAgain == 'y') {
+			setInput();
+		}
+		else if (tryAgain == 'n') {
+			System.out.println("Goodbye!");
+		}
+		else {
+			System.out.println("Wrong input...\n");
+			restart();
+		}
+		
 	}
 }
