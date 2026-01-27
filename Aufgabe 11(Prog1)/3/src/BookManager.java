@@ -18,8 +18,7 @@ public class BookManager {
         boolean removed = books.remove(title);
 
         if (!removed) {
-            throw new NoSuchElementException("Book '" + title + "' not found!"
-            );
+            throw new NoSuchElementException("Book '" + title + "' not found!");
         }
     }
 
