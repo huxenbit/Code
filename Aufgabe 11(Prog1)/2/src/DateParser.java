@@ -6,6 +6,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class DateParser {
+
     public void input() {
         // Scanner in try-with-resources, wird automatisch geschlossen
         try (Scanner scanner = new Scanner(System.in)) {

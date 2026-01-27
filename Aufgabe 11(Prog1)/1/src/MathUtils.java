@@ -1,7 +1,7 @@
 public class MathUtils {
-    public double divide (int a, int b) throws IllegalArgumentException {
+    public static double divide (int a, int b) throws IllegalArgumentException {
         if (b == 0) {
-            throw new IllegalArgumentException("Cannot divide by zero!");
+            throw new IllegalArgumentException("Parameter 'b' should not be zero!");
         } else {
             return (double) a / b;
         }
