@@ -6,11 +6,11 @@ public class BookManagerTestDrive {
         try {
             manager.addBook("Java von Kopf bis Fuß");
             manager.addBook("Effective Java");
-            manager.addBook("");
+            manager.addBook("Hello World!");
             manager.removeBook("Java");
 
         } catch (IllegalArgumentException e) {
-            e.printStackTrace();
+            System.err.println("Parameter 'title' cannot be zero or empty!");
         } catch (NoSuchElementException e) {
             e.printStackTrace();
         }
