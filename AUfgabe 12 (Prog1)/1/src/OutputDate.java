@@ -18,7 +18,7 @@ public class OutputDate {
         try (Scanner fileScanner = new Scanner(new File(fileName + ".txt"))) {
             while (fileScanner.hasNextLine()) {
                 date = fileScanner.nextLine();
-                parseDate(date);
+                parseDateFromFile(date);
             }
         } catch (FileNotFoundException e) {
             System.err.println("File " + fileName + " not found!");
