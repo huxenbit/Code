@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84110e20-f7ac-46c7-a73f-c5e352a83d12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../2/src/NewIOTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/src/NewInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/src/NewOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CarDeserializeTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CarDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CarSerializeTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CarSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ElectricCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1/src/OutputDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1/src/OutputDate.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="39ASwf3ePRTNHokCFE6teXoaP3U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CarDeserializeTestDrive.executor": "Run",
+    "Application.CarSerializeTestDrive.executor": "Run",
+    "Application.CarSerializerTestDrive.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84110e20-f7ac-46c7-a73f-c5e352a83d12" name="Changes" comment="" />
+      <created>1770137622977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770137622977</updated>
+      <workItem from="1770137624465" duration="2601000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
