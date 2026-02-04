@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84110e20-f7ac-46c7-a73f-c5e352a83d12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../2/src/NewIOTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2/src/NewInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2/src/NewOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarDeserializeTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarSerializeTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ElectricCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1/src/OutputDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1/src/OutputDate.java" afterDir="false" />
-    </list>
+    <list default="true" id="84110e20-f7ac-46c7-a73f-c5e352a83d12" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770137622977</updated>
-      <workItem from="1770137624465" duration="2601000" />
+      <workItem from="1770137624465" duration="2723000" />
     </task>
     <servers />
   </component>
